@@ -1,0 +1,84 @@
+/* document style*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #EEEEEE;
+}
+
+
+
+/*  tags style  */
+
+
+
+/* top part */
+
+.title-text {
+    text-align: center;
+    line-height: 1.5rem;
+    margin: 1.5rem 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title-head {
+    margin-top: 4rem;
+}
+
+.head-span {
+    color: #FF4C29;
+}
+
+.title-paragraph {
+    max-width: 40%;
+    /* min-width: 350px;*/
+    margin: auto;
+    color: rgb(124, 122, 122);
+}
+
+
+/*  bottom part  */
+
+.flex-container {
+    display: flex; 
+    width: 80%;
+    margin: 2.5rem auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 280px;
+    width: 220px;
+    border-radius: 0.5rem;
+    margin: 0.5rem;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.photo {
+    height: 70%;
+
+}
+
+.profile-photo {
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
+
+.summary {
+    color: rgb(124, 122, 122);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0.5rem;
+}
